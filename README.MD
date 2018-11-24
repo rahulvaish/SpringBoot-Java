@@ -4,4 +4,5 @@
 ##### [2] SpringBootJPA :  SpringBoot example with DB using Spring JPA. 
 ##### [3] SpringBootJDBC :  SpringBoot example with DB using JDBC. 
 ##### [4] SpringBootIO :  SpringBoot example showcasing request-response. 
-##### [5] HelloSpringBoot :  Ewllo World example in SpringBoot. 
+##### [5] HelloSpringController :  Hello World example in SpringBoot using Controller Layer. 
+##### [6] HelloSpringBoot :  Hello World example in SpringBoot. 
