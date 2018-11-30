@@ -5,7 +5,7 @@
 
 <hr>
 
-###### [Github Link to Docker-Java Repository](https://github.com/rahulvaish/Docker-Java)
+###### [GitHub Link to Docker-Java Repository](https://github.com/rahulvaish/Docker-Java)
 
 
 
