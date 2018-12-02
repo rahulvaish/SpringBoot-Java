@@ -4,10 +4,7 @@
 ##### [SpringBootDockerToOpenshift](https://github.com/rahulvaish/ReferenceDocuments/blob/master/UnderstandingDocker/SpringBootDockerToOpenShift.docx)
 
 <hr>
-
-###### [GitHub Link to 'Docker-Java' Repository](https://github.com/rahulvaish/Docker-Java)
-
-##### [Docker Hub URL](https://hub.docker.com/u/rahulvaish/)
+##### [Docker Hub URL](https://hub.docker.com/r/rahulvaish/springbootdocker/)
 
 
 
