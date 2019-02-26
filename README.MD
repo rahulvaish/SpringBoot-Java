@@ -5,6 +5,5 @@
 ##### [3] [SpringBootJDBC](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootJDBC) :  SpringBoot example with DB using JDBC. 
 ##### [4] [SpringBootIO](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootIO) :  SpringBoot example showcasing request-response. 
 ##### [5] [HelloSpringController](https://github.com/rahulvaish/SpringBoot-Java/tree/HelloSpringBootController) :  Hello World example in SpringBoot using Controller Layer. 
-##### [6] [HelloSpringBoot](https://github.com/rahulvaish/SpringBoot-Java/tree/HelloSpringBoot) :  Hello World example in SpringBoot. 
-##### [7] [SpringBootDocker](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootDocker) :  Hello Spring Boot example for Docker & Kubernetes [[IMAGE HERE](https://hub.docker.com/r/rahulvaish/springbootdocker/)]
-##### [8] [SpringBootNetflixEureka](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootNetflixEureka) : Basic example illustrating Netflix Eureka server for building the service registry server and Eureka clients which will register themselves and discover other services to call REST APIs.
+##### [6] [SpringBootDocker](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootDocker) :  Hello Spring Boot example for Docker & Kubernetes [[IMAGE HERE](https://hub.docker.com/r/rahulvaish/springbootdocker/)]
+##### [7] [SpringBootNetflixEureka](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootNetflixEureka) : Basic example illustrating Netflix Eureka server for building the service registry server and Eureka clients which will register themselves and discover other services to call REST APIs.
