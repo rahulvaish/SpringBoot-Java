@@ -1,3 +1,5 @@
+This repository contains SpringBoot examples developed on **Spring Tool suite (STS)**.
+
 ## **Branch Contents:**
 
 ##### [1] [SpringBootJUnitMockito](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootJUnitMockito) :  SpringBoot examples with JUnit-Mockito. 
