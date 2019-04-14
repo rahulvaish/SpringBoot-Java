@@ -9,3 +9,5 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [5] [HelloSpringController](https://github.com/rahulvaish/SpringBoot-Java/tree/HelloSpringBootController) :  Hello World example in SpringBoot using Controller Layer. [http://localhost:2017/myApplication/hello]
 ##### [6] [SpringBootDocker](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootDocker) :  Hello Spring Boot example for Docker & Kubernetes [[IMAGE HERE](https://hub.docker.com/r/rahulvaish/springbootdocker/)]
 ##### [7] [SpringBootNetflixEureka](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootNetflixEureka) : Basic example illustrating Netflix Eureka server for building the service registry server and Eureka clients which will register themselves and discover other services to call REST APIs.
+##### [8] [SpringBootSwagger](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootSwagger) :  SpringBoot example with Swagger UI. 
+
