@@ -80,6 +80,7 @@
 				</dependencies>
 			</plugin>
 		</plugins>
+		<finalName>SpringBootJDBCExample</finalName>
 	</build>
 
 
