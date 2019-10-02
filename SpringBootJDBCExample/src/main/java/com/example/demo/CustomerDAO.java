@@ -14,7 +14,7 @@ public class CustomerDAO {
      @Autowired
      private JdbcTemplate jdbcTemplate;
  
-     private static final String SQL = "select * from customers";
+     private static final String SQL = "select * from customer";
  
      public List<Customer> isData() {
  
@@ -24,8 +24,8 @@ public class CustomerDAO {
           for (Map<String, Object> row : rows) 
           {
                Customer customer = new Customer();
-               customer.setCustNo((String)row.get("id"));
-               customer.setCustName((String)row.get("Cust_name"));
+               customer.setCustNo((String)row.get("custNo"));
+               customer.setCustName((String)row.get("custName"));
                customer.setCountry((String)row.get("Country"));
  
                customers.add(customer);
