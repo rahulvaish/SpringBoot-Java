@@ -1,0 +1,3 @@
+com\security\rest\config\SecurityConfig.class
+com\security\rest\controller\MyController.class
+com\security\rest\SpringBootDemoApplication.class
