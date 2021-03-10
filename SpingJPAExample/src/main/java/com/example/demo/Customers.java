@@ -2,22 +2,39 @@ package com.example.demo;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "Customers")
+@Table(name = "customers_table")
 public class Customers {
 
 	@Id
-    private Long id;
- 
-    @Column(name = "Cust_name", length = 30, nullable = false)
-    private String custName;
- 
-    @Column(name = "Country", length = 128, nullable = false)
-    private String country;
+	@GeneratedValue
+	@Column(name = "id", nullable = false)
+	private Long id;
 
+	@Column(name = "cust_number", length = 20)
+	private String custNo;
+
+	@Column(name = "cust_name", length = 20)
+	private String custName;
+
+	@Column(name = "country", length = 20)
+	private String country;
+
+	public Customers() {
+	}
+	
+	public Customers(Long id, String custNo, String custName, String country) {
+		super();
+		this.id = id;
+		this.custNo = custNo;
+		this.custName = custName;
+		this.country = country;
+	}
+	
 	public Long getId() {
 		return id;
 	}
@@ -25,8 +42,6 @@ public class Customers {
 	public void setId(Long id) {
 		this.id = id;
 	}
-
-	
 
 	public String getCustName() {
 		return custName;
@@ -43,5 +58,19 @@ public class Customers {
 	public void setCountry(String country) {
 		this.country = country;
 	}
+
+	public String getCustNo() {
+		return custNo;
+	}
+
+	public void setCustNo(String custNo) {
+		this.custNo = custNo;
+	}
+
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", custNo=" + custNo + ", custName=" + custName + ", country=" + country + "]";
+	}
+
 	
 }
