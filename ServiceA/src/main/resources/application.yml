@@ -1,0 +1,29 @@
+
+
+server:
+  port: 8090
+
+
+#actuator configuration
+management:
+  health:
+    circuitbreakers:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: always
+
+#circuit breaker (R4J) configuration
+
+resilience4j:
+  ratelimiter:
+    instances:
+      serviceA:
+        registerHealthIndicator: false
+        limitForPeriod: 10
+        limitRefreshPeriod: 60s
+        timeoutDuration: 20s
