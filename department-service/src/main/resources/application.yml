@@ -1,0 +1,21 @@
+
+spring:
+  application:
+    name: department-service
+  zipkin:
+    base-url: http://127.0.0.1:9411/
+
+server:
+  port: 8061
+
+# THIS APP CONFIGURED BOOTSTRAP.YML TO TALK TO CONFIG SERVER.
+# CONFIG SERVER TALKING TO https://github.com/rahulvaish/config-server
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url.defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
