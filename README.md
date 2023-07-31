@@ -1,5 +1,5 @@
 
-#### SpringBoot JWT Example & Postman Testing
+#### SpringBoot Authentication and Authorization using JWT
 _____________________________________________________________________________________________________
 <img width="1198" alt="image" src="https://github.com/rahulvaish/SpringBoot-Java/assets/689226/71b7c8a5-b98c-4183-a9b4-86409f84f533">
 _____________________________________________________________________________________________________
