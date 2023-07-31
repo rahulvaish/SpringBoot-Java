@@ -1,4 +1,4 @@
-#### SpringBootApplication integration with KeyCloack
+## SpringBoot Authorization using KeyCloak Authorization Server
 
 ##### Start KeyCloack Standalone Server:
 <img width="1725" alt="image" src="https://github.com/rahulvaish/SpringBoot-Java/assets/689226/f2af7d7f-42f8-4376-85ad-c96fcaa96553">
