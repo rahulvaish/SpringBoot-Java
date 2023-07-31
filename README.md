@@ -1,6 +1,6 @@
 
-#### SpringBoot Authentication and Authorization using JWT
-_____________________________________________________________________________________________________
+## SpringBoot Authentication and Authorization using JWT
+
 <img width="1198" alt="image" src="https://github.com/rahulvaish/SpringBoot-Java/assets/689226/71b7c8a5-b98c-4183-a9b4-86409f84f533">
 _____________________________________________________________________________________________________
 <img width="1338" alt="image" src="https://github.com/rahulvaish/SpringBoot-Java/assets/689226/99c7c342-b650-4649-af61-6ee1528ef91b">
