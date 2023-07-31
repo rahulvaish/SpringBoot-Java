@@ -16,6 +16,10 @@ Once the server is started:
 - Map user(rahul) with realm-admin
 
 ________________________________________________________________________________________________
+##### Get the Endpoint:
+<img width="1726" alt="image" src="https://github.com/rahulvaish/SpringBoot-Java/assets/689226/274edc79-fccb-4fbe-85d3-e78418a779f9">
+
+________________________________________________________________________________________________
 
 ##### Get the token:
 <img width="1305" alt="image" src="https://github.com/rahulvaish/SpringBoot-Java/assets/689226/76ee193d-fe82-4481-bb48-a5551f170112">
