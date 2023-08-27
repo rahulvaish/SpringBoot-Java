@@ -10,4 +10,5 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [6] [SpringBootSwagger*](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootSwagger) :  SpringBoot example with Swagger UI.
 ##### [7] [SpringBootJPA & H2](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootJPA) :  SpringBoot example with MySQL | H2.
 ##### [8] [SpringBoot Circuit Breaker](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootCircuitBreaker) : SpringBoot example with CB.
+##### [9] [SpringBoot Consul](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootConsul) : SpringBootConsul
 
