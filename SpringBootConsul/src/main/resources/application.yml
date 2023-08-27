@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    consul:
+      config:
+        fail-fast: true
+      host: localhost
+      port: 8500
+  application:
+    name: myApp
+server:
+  port: 8040
