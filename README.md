@@ -3,9 +3,7 @@
 ##### Step#1: Install and Start Consul Server:
 ```
 brew install consul
-brew install vault
 consul agent —dev
-vault server -dev
 ```
 
 <img width="1334" alt="image" src="https://github.com/rahulvaish/SpringBoot-Java/assets/689226/cfe75c13-9e51-4e3f-adcd-a5901e3f2161">
