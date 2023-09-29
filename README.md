@@ -16,13 +16,7 @@ SpringBootApp application => B
 - Therefore, post 20 seconds if we hit **A** again, it gets a response from the **B** in 5+ seconds.
   
 #### NOTE:
-- During the period when the cache is holding the data, if **B** is turned off, still **A** gets a response in < 10 ms, as data is being fetched from the cache.
-- After the cache is cleared, **A** results in a 500 Error - As no data in the cache, and **B** is off!
+- During the period when the cache is holding the data, if **B** is turned off, still **A** gets a response in < 10 ms, as data is being fetched from the cache, and not from **B**.
+- Once the cache is cleared, **A** results in a 500 Error - As no data is found in the cache, and **B** is off!
    
 
-
-
-Instead of the SpringBootApp application, if it was the DB on the other end: 
-  - On making SpringBootCache application hit, it returns data from the DB and caches the response.
-  - If we update data in the DB, the cache is not updated, and the service returns the stale data from the cache.
-  - Post clearing the cache. On making a Service hit again, the service returns fresh data, and loads fresh data in the cache:
