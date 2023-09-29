@@ -5,10 +5,10 @@
 - The SpringBootCache application gets a response from the SpringBootApp application in 5+ seconds.
   <img width="1305" alt="image" src="https://github.com/rahulvaish/SpringBoot-Java/assets/689226/eb8d34a3-8f26-460d-9a80-adc60317a3d5">
 - SpringBootCache application caches the data coming from the SpringBootApp application.
-- On making a Service hit again - the SpringBootCache application gets a response in < 10 ms as it fetches the data from the cache.
+- On making a Service hit again - the SpringBootCache application gets a response in < 10 ms as the response is cached.
   <img width="1314" alt="image" src="https://github.com/rahulvaish/SpringBoot-Java/assets/689226/1e2bef25-d158-412e-a817-3867f188842e">
-- We have configured a Scheduler in the SpringBootCache application to clean the cache every 20 seconds.
-- Therefore, post 20 seconds if a service hit is made on the SpringBootCache application, it gets a response from the SpringBootApp application in 5+ seconds.
+- We have also configured a @Scheduler in the SpringBootCache application to keep cleaning the cache after every 20 seconds.
+- Therefore, post 20 seconds if we hit again the SpringBootCache application, it gets a response from the SpringBootApp application in 5+ seconds.
   
 #### NOTE:
 Instead of the SpringBootApp application, if it was the DB on the other end: 
