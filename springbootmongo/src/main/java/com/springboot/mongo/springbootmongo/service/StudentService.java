@@ -57,16 +57,12 @@ public class StudentService {
     public String getEmailFromStudentName(String name) {
         Aggregation aggregation = Aggregation.newAggregation(
                 Aggregation.match(Criteria.where("studentName").is(name)),
-                Aggregation.project("email")
-        );
-
+                Aggregation.project("email"));
         List<Document> results = mongoTemplate.aggregate(aggregation, "student", Document.class).getMappedResults();
-
         if (!results.isEmpty()) {
             Document studentDocument = results.get(0);
             return studentDocument.getString("email");
-        } else {
-            return null;
         }
+        return null;
     }
 }
