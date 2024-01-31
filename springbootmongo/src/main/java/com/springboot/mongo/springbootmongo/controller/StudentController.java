@@ -49,4 +49,9 @@ public class StudentController {
     public List<Student> getStudentNameOrEmail(@PathVariable String name, @PathVariable String email){
         return studentService.getStudentNameOrEmail(name, email);
     }
+
+    @GetMapping("/getEmailFromStudentName/{name}")
+    public String getEmailFromStudentName(@PathVariable String name){
+        return studentService.getEmailFromStudentName(name);
+    }
 }
