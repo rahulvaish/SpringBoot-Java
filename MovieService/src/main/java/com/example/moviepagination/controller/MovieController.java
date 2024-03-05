@@ -23,4 +23,10 @@ public class MovieController {
                                     @RequestParam(defaultValue = "10") int size){
         return movieService.getAllMovies(page, size);
     }
+
+    @GetMapping("/getAllMovieTitles")
+    public Page<String> getAllMovieTitles(@RequestParam(defaultValue = "0") int page,
+                                    @RequestParam(defaultValue = "10") int size){
+        return movieService.getAllMovieTitles(page, size);
+    }
 }

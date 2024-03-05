@@ -8,6 +8,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import java.util.stream.Collectors;
+import java.util.*;
+import org.springframework.data.domain.PageImpl;
 
 @Service
 @Slf4j
@@ -23,5 +26,10 @@ public class MovieService {
     public Page<Movie> getAllMovies(int page, int size) {
         Pageable pageable = PageRequest.of(page, size);
         return movieRepository.findAll(pageable);
+    }
+
+    public Page<String> getAllMovieTitles(int page, int size) {
+        Pageable pageable = PageRequest.of(page, size);
+       return movieRepository.findAllTitle(PageRequest.of(page, size));
     }
 }
