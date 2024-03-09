@@ -20,3 +20,4 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [16] [SpringBoot Header](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootHeader) : SpringBoot Header
 ##### [17] [SpringBoot Pagination](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootPagination) : SpringBoot Pagination
 ##### [18] [SpringBoot Feature Flag](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootFeatureFlag) : SpringBoot Feature Flag
+##### [19] [SpringBoot Rate Limiter](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootRateLimiter): SpringBootRateLimiter
