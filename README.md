@@ -1,4 +1,4 @@
-
+### Example of Local Cache | In-Memory Cache
 #### Caching Process:
 ```
 SpringBootCache application => A
