@@ -24,3 +24,4 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [20] [SpringBoot Retry](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootRetry): SpringBootRetry
 ##### [21] [SpringBoot Neo4j](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootNeo4j): SpringBootNeo4j
 ##### [22] [SpringBoot GraphQL](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootGraphQL): SpringBootGraphQL | H2
+##### [23] [SpringBoot Webflux](https://github.com/rahulvaish/SpringWebFlux): SpringBoot Webflux
