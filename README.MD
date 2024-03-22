@@ -22,3 +22,4 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [18] [SpringBoot Feature Flag](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootFeatureFlag) : SpringBoot Feature Flag
 ##### [19] [SpringBoot Rate Limiter](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootRateLimiter): SpringBootRateLimiter
 ##### [20] [SpringBoot Retry](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootRetry): SpringBootRetry
+##### [21] [SpringBoot Neo4j](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootNeo4j): SpringBootNeo4j
