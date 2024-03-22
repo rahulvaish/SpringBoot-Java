@@ -3,10 +3,11 @@ package com.graphql.learn.services.impl;
 import com.graphql.learn.entities.Book;
 import com.graphql.learn.repositories.BookRepo;
 import com.graphql.learn.services.BookService;
+import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
+
 import java.util.List;
 
 @Service

@@ -1,8 +1,8 @@
 package com.graphql.learn.entities;
 
+import jakarta.persistence.*;
 import lombok.*;
 
-import javax.persistence.*;
 
 @Entity
 @Table(name = "project_books")
