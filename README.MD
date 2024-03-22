@@ -23,3 +23,4 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [19] [SpringBoot Rate Limiter](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootRateLimiter): SpringBootRateLimiter
 ##### [20] [SpringBoot Retry](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootRetry): SpringBootRetry
 ##### [21] [SpringBoot Neo4j](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootNeo4j): SpringBootNeo4j
+##### [22] [SpringBoot GraphQL](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootGraphQL): SpringBootGraphQL
