@@ -26,4 +26,8 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [22] [SpringBoot GraphQL](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootGraphQL): SpringBootGraphQL | H2
 ##### [23] [SpringBoot Webflux](https://github.com/rahulvaish/SpringWebFlux): SpringBoot Webflux | SSE | @Async
 ##### [24] [SpringBoot LoadBalancer](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootLoadBalancer): SpringBoot LoadBalancer
+##### [25] [SpringBoot in SpringBoot](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootAsSpringBootDependency): SB as SB Dependency
+##### [26] [SpringBoot JWT](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootJWTAuthAuth): SpringBoot JWT
+##### [27] [SpringBoot Security](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootSecurity): SpringBoot Security
+##### [28] [SpringBoot OAuth Social](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootOAuth2SocialLogin): SpringBoot OAuth Social Login
 
