@@ -1,27 +1,25 @@
-package com.springboot.exhandling;
+package com.example.SpringBootExHandling.controller;
 
-import java.io.IOException;
 
-import javax.security.auth.message.callback.PrivateKeyCallback.Request;
-
+import com.example.SpringBootExHandling.exception.EmployeeServiceException;
+import com.example.SpringBootExHandling.exception.ResourceNotFoundException;
+import com.example.SpringBootExHandling.model.Employee;
+import com.example.SpringBootExHandling.service.AppService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class MyController {
+public class AppController {
 	@Autowired
-	EmployeeService employeeService;
+	AppService appService;
 
     //Happy path, an employee is returned as response
 	@RequestMapping(value = "/employee", method = RequestMethod.GET)
 	public Employee getEmpl() throws ResourceNotFoundException, EmployeeServiceException {
 		try {
-			Employee emp = employeeService.getEmployee();
+			Employee emp = appService.getEmployee();
 
 			if (emp == null) {
 				throw new ResourceNotFoundException("Employee not found");
@@ -36,7 +34,7 @@ public class MyController {
 	@RequestMapping(value = "/employee2", method = RequestMethod.GET)
 	public Employee getEmp2() throws ResourceNotFoundException, EmployeeServiceException {
 		try {
-			Employee emp = employeeService.getEmployeeNull();
+			Employee emp = appService.getEmployeeNull();
 			if (emp == null) {
 				throw new ResourceNotFoundException("Employee not found");
 			}
@@ -51,7 +49,7 @@ public class MyController {
 	@RequestMapping(value = "/employee3", method = RequestMethod.GET)
 	public Employee getEmp3() throws ResourceNotFoundException, EmployeeServiceException {
 		try {
-			Employee emp = employeeService.getEmployeeException();
+			Employee emp = appService.getEmployeeException();
 			if (emp == null) {
 				throw new ResourceNotFoundException("Employee not found");
 			}

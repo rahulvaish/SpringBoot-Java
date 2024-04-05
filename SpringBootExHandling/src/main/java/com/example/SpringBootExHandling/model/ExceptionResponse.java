@@ -1,4 +1,4 @@
-package com.springboot.exhandling;
+package com.example.SpringBootExHandling.model;
 
 public class ExceptionResponse {
 

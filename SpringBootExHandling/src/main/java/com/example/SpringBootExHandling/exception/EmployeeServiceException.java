@@ -1,7 +1,6 @@
-package com.springboot.exhandling;
+package com.example.SpringBootExHandling.exception;
 
 public class EmployeeServiceException extends Exception {
-
 
 	public EmployeeServiceException() {
 		super();
