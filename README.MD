@@ -32,4 +32,5 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [28] [SpringBoot OAuth Social](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootOAuth2SocialLogin): SpringBoot OAuth Social Login
 ##### [29] [SpringBoot Actuator](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootActuator)SpringBoot Actuator
 ##### [30] [SpringBoot Scheduler](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootScheduler) SpringBoot Scheduler
+##### [31] [SpringBoot Exception Handling](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootExHandling) SpringBoot Exception Handling
 
