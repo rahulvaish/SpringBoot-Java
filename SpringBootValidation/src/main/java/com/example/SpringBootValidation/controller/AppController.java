@@ -1,6 +1,6 @@
 package com.example.SpringBootValidation.controller;
 
-import com.example.SpringBootValidation.model.CustomerOne;
+import com.example.SpringBootValidation.model.Customer;
 import com.example.SpringBootValidation.model.CustomerResponse;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
@@ -22,7 +22,7 @@ public class AppController {
 
     // If any validation fails in CustomerOne, 400 BAD REQUEST else process it! - BUT NO IDEA WHAT FAILED
     @PostMapping("/publishDataOne")
-    public ResponseEntity<CustomerResponse> publishDataOne(@Valid @RequestBody CustomerOne customerOne){
+    public ResponseEntity<CustomerResponse> publishDataOne(@Valid @RequestBody Customer customer){
         CustomerResponse customerResponse = new CustomerResponse();
         List<String> dataList = new ArrayList<>();
         dataList.add("A");
@@ -35,7 +35,7 @@ public class AppController {
 
 
     @PostMapping("/publishDataTwo")
-    public ResponseEntity<?> publishDataTwo(@Validated @RequestBody CustomerOne customerOne, BindingResult bindingResult) {
+    public ResponseEntity<?> publishDataTwo(@Validated @RequestBody Customer customer, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             // If there are validation errors, return a 400 Bad Request response
             Map<String, String> errors = new HashMap<>();

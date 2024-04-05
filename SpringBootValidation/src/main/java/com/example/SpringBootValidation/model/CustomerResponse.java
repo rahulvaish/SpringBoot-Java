@@ -11,5 +11,4 @@ import java.util.List;
 @AllArgsConstructor
 public class CustomerResponse {
     private List<String> list;
-    private List<String> errorMessages;
 }

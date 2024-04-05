@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CustomerOne {
+public class Customer {
     @NotNull(message = "customerName is mandatory")
     @NotBlank(message = "customerName is mandatory")
     @NotEmpty(message = "customerName is mandatory")
