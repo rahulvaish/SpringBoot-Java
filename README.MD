@@ -33,4 +33,5 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [29] [SpringBoot Actuator](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootActuator)SpringBoot Actuator
 ##### [30] [SpringBoot Scheduler](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootScheduler) SpringBoot Scheduler
 ##### [31] [SpringBoot Exception Handling](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootExHandling) SpringBoot Exception Handling
+##### [32] [SpringBoot Validation](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootValidation) SpringBoot Validation
 
