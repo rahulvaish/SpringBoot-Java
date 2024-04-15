@@ -35,6 +35,6 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [31] [SpringBoot Exception Handling](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootExHandling) SpringBoot Exception Handling
 ##### [32] [SpringBoot Validation](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootValidation) SpringBoot Validation
 ##### [33] [SpringBoot Timeout](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootTimeOut) SpringBoot Timeout/Endpoint-Interceptor
-##### [34] [SpringBoot Propagation](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootTimeOut2)SpringBoot Timeout Propagation
+##### [34] [SpringBoot Timeout Propagation](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootTimeOut2)SpringBoot Timeout Propagation
 ##### [35] [Eureka Client Side Service Discovery](https://github.com/rahulvaish/SpringBoot-Java/tree/ClientSideServiceDiscovery) Eureka Client Side Service Discovery
 ##### [36] [Eureka Server Side Service Discovery](https://github.com/rahulvaish/SpringBoot-Java/tree/ServerSideServiceDiscovery)Eureka Server Side Service Discovery
