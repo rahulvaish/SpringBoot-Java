@@ -10,8 +10,8 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [6] [SpringBootSwagger*](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootSwagger) :  SpringBoot example with Swagger UI.
 ##### [7] [SpringBootJPA & H2](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootJPA) :  SpringBoot example with MySQL | H2.
 ##### [8] [SpringBoot Circuit Breaker](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootCircuitBreaker) : SpringBoot example with CB.
-##### [9] [SpringBoot Consul - Centralised Config](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootConsul) : SpringBootConsul - Centralised Config.
-##### [10] [SpringBoot Vault - Centralised Credentials](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootVault) : SpringBoot Vault - Centralised Credentials
+##### [9] [SpringBoot Consul - Centralised Config](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootConsul) : SpringBootConsul - Centralised Config [N/A]
+##### [10] [SpringBoot Vault - Centralised Credentials](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootVault) : SpringBoot Vault - Centralised Credentials [N/A]
 ##### [11] [SpringBoot Bean XML](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootBeanConfig) : SpringBoot With XML Bean Config and normal @Bean config
 ##### [12] [SpringBoot Multimodule](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootMultiModule) : SpringBoot Multi Module Project
 ##### [13] [SpringBoot Profiles and Environments](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootProfiles) : SpringBoot Profiles and Environments
