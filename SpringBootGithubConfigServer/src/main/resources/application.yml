@@ -1,0 +1,19 @@
+server:
+  port: 9296
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+spring:
+  application:
+    name: SpringBootGithubConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/rahulvaish/config-server
+          clone-on-start: true
