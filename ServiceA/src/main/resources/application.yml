@@ -1,0 +1,9 @@
+server:
+  port: 8012
+
+
+spring:
+  config:
+    import: configserver:http://localhost:9296
+  application:
+    name: ServiceA
