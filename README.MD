@@ -17,7 +17,7 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [13] [SpringBoot Profiles and Environments](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootProfiles) : SpringBoot Profiles and Environments
 ##### [14] [SpringBoot Cache](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootCache) : SpringBoot Cache
 ##### [15] [SpringBoot API Key](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootAPIKey) : SpringBoot API Key
-##### [16] [SpringBoot Header](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootHeader) : SpringBoot Header
+##### [16] [SpringBoot Header](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootHeader) : SpringBoot Header - Versioning-Deprecation Strategy
 ##### [17] [SpringBoot Pagination](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootPagination) : SpringBoot Pagination
 ##### [18] [SpringBoot Feature Flag](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootFeatureFlag) : SpringBoot Feature Flag
 ##### [19] [SpringBoot Rate Limiter](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootRateLimiter): SpringBootRateLimiter
@@ -39,6 +39,6 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [35] [Eureka Client Side Service Discovery](https://github.com/rahulvaish/SpringBoot-Java/tree/ClientSideServiceDiscovery): Eureka Client Side Service Discovery
 ##### [36] [Eureka Server Side Service Discovery](https://github.com/rahulvaish/SpringBoot-Java/tree/ServerSideServiceDiscovery): Eureka Server Side Service Discovery
 ##### [37] [SpringBoot Config Server](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootConfigServer): SpringBoot Config Server
-##### [38] [SpringBoot Zipkin](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootZipkin): SpringBootZipkin
+##### [38] [SpringBoot Zipkin](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootZipkin): SpringBootZipkin - Observability
 ##### [39] [SpringBoot Arch Testing](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootArchTesting): Arch Unit
 
