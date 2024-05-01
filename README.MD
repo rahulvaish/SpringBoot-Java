@@ -40,4 +40,5 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [36] [Eureka Server Side Service Discovery](https://github.com/rahulvaish/SpringBoot-Java/tree/ServerSideServiceDiscovery): Eureka Server Side Service Discovery
 ##### [37] [SpringBoot Config Server](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootConfigServer): SpringBoot Config Server
 ##### [38] [SpringBoot Zipkin](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootZipkin): SpringBootZipkin
+##### [39] [SpringBoot Arch Testing](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootArchTesting): Arch Unit
 
