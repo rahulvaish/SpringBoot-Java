@@ -41,4 +41,5 @@ This repository contains SpringBoot examples developed on **Spring Tool suite (S
 ##### [37] [SpringBoot Config Server](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootConfigServer): SpringBoot Config Server
 ##### [38] [SpringBoot Zipkin](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootZipkin): SpringBootZipkin - Observability
 ##### [39] [SpringBoot Arch Testing](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootArchTesting): Arch Unit
+##### [40] [SpringBoot Interceptor](https://github.com/rahulvaish/SpringBoot-Java/tree/SpringBootInterceptor): SpringBoot Interceptor
 
